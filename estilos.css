@@ -2,23 +2,77 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #C9C5C5;
+}
 header{
-    font-family: sans-serif;
-    width: 480px;
+    background-image: url("Fotos/Fondo titulo.jpg");
+    font-family: "Berlin Sans FB", sans-serif;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 41%;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-weight: normal;
+    font-size: 3.5em;
+    padding-top: 4%;
+    color: #EEDFDF;
+    border-bottom:solid #DC001B;
+    margin-left: 15%;
+    width: 70%;
+}
+h2{
+    text-align: center;
+    font-weight: normal;
+    margin-top: 10px;
+    font-size: 2em;
+    color: #EEDFDF;
+}
+#nav{
     margin: 0 auto;
+    background-color: transparent;
+    position: absolute;
+    top: 87%;
 }
 ul{
     list-style: none;
 }
 #barra li>a{
-    background-color: grey;
     color: white;
     text-decoration: none;
     display: block;
     padding: 10px;
-    min-width: 100%;
+    min-width: 100px;
 }
 #barra>li{
-    float: left;
     text-align:center;
+    float:left;
 }
+#barra li>a:hover{
+    color: #DC001B;
+    background-color: rgba(94,92,92,.3);
+}
+#barra>li>ul{
+    display: none;
+}
+#barra>li:hover>ul{
+    display: block;
+}
+ul.oculto{
+    display: none;
+
+}
+li:hover>ul.oculto{
+    display: block;
+}
+main{
+    position: absolute;
+    left: 0;
+    top: 42%;
+}
+
