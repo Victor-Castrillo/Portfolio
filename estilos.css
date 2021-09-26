@@ -4,15 +4,16 @@
 }
 body{
     background-color: #C9C5C5;
+    overflow: hidden;
+    font-family: "Berlin Sans FB", sans-serif;
 }
 header{
     background-image: url("Fotos/Fondo titulo.jpg");
-    font-family: "Berlin Sans FB", sans-serif;
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
-    height: 41%;
+    height: 25%;
     background-position: center;
     background-size: cover;
 }
@@ -20,7 +21,7 @@ h1{
     text-align: center;
     font-weight: normal;
     font-size: 3.5em;
-    padding-top: 4%;
+    padding-top: 1%;
     color: #EEDFDF;
     border-bottom:solid #DC001B;
     margin-left: 15%;
@@ -37,7 +38,7 @@ h2{
     margin: 0 auto;
     background-color: transparent;
     position: absolute;
-    top: 87%;
+    top: 80%;
 }
 ul{
     list-style: none;
@@ -74,5 +75,51 @@ main{
     position: absolute;
     left: 0;
     top: 42%;
+    z-index: 43;
 }
-
+.fotos{
+    width: 23%;
+    float:left;
+    padding:10px;
+    margin-top: 0;
+}
+.fotos img{
+    width: 100%;
+    height: 65%;
+}
+footer{
+    background-image: url("Fotos/Fondo titulo.jpg");
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    background-position: center;
+    background-size: cover;
+}
+.botones{
+    color: white;
+    background-color: #DC001B;
+    width: 5%;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 5px;
+}
+#volver{
+    position: absolute;
+    top: 40%;
+    left: 1%;
+}
+#siguiente{
+    position: absolute;
+    top: 40%;
+    right: 1%;
+}
+.botones:hover{
+    background-color: #940E1E;
+}
+.botones>a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
