@@ -9,13 +9,14 @@ body{
 }
 header{
     background-image: url("Fotos/Fondo titulo.jpg");
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     width: 100%;
     height: 25%;
     background-position: center;
     background-size: cover;
+    z-index: 44;
 }
 h1{
     text-align: center;
@@ -39,6 +40,7 @@ h2{
     background-color: transparent;
     position: absolute;
     top: 80%;
+    z-index: 14;
 }
 ul{
     list-style: none;
@@ -74,8 +76,7 @@ li:hover>ul.oculto{
 main{
     position: absolute;
     left: 0;
-    top: 42%;
-    z-index: 43;
+    top: 25%;
 }
 .fotos{
     width: 23%;
@@ -86,10 +87,11 @@ main{
 .fotos img{
     width: 100%;
     height: 65%;
+    border-radius: 5px;
 }
 footer{
     background-image: url("Fotos/Fondo titulo.jpg");
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     height: 10%;
@@ -122,4 +124,52 @@ footer{
     text-decoration: none;
     color: white;
     display: block;
+}
+#pieinicio{
+    height: 15%;
+}
+#foot{
+    margin-top: 8px;
+}
+#largo{
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+}
+.dos{
+    width: 50%;
+    height: 65%;
+}
+#practica{
+    background-image: url("./Fotos/Practica.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+}
+#proyecto{
+    background-image: url("./Fotos/Proyecto.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 50%;
+    bottom: 0;
+}
+#paginas{
+    width: 100%;
+    height: 65%;
+}
+.centro{
+    text-align: center;
+    line-height: 700%;
+    color: #DC001B;
+    font-size: 4em;
+}
+.dos:hover{
+    opacity: .8;
 }
