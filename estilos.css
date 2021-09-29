@@ -184,13 +184,13 @@ footer{
     background-image: url("./Fotos/Yo.jpg");
 }
 #parte2{
-
+    background-image: url("./Fotos/Foco.jpg");
 }
 #parte3{
-
+    background-image: url("./Fotos/Baloncesto.jpg");
 }
 #parte4{
-
+    background-image: url("./Fotos/Mente.jpg");
 }
 .imagen{
     background-position: center;
@@ -205,6 +205,7 @@ footer{
     position: absolute;
     left: 36%;
     width: 64%;
+    overflow: hidden;
 }
 .texto>p{
     font-size: 2em;
