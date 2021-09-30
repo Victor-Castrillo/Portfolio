@@ -8,7 +8,7 @@ body{
     font-family: "Berlin Sans FB", sans-serif;
 }
 header{
-    background-image: url("Fotos/Fondo titulo.jpg");
+    background-image: url("/Fotos/Fondo titulo.jpg");
     position: fixed;
     left: 0;
     top: 0;
@@ -65,21 +65,15 @@ li{
 }
 #barra>li>ul{
     display: none;
-    opacity: 0;
 }
 #barra>li:hover>ul{
     display: block;
-    opacity: 1;
-    transition: opacity 1.5s;
 }
 ul.oculto{
     display: none;
-    opacity: 0;
 }
 li:hover>ul.oculto{
     display: block;
-    opacity: 1;
-    transition: opacity 1.5s;
 }
 main{
     position: absolute;
@@ -101,7 +95,7 @@ main{
     border-radius: 5px;
 }
 footer{
-    background-image: url("Fotos/Fondo titulo.jpg");
+    background-image: url("/Fotos/Fondo titulo.jpg");
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -148,7 +142,7 @@ footer{
     margin-left: 10%;
 }
 #practica{
-    background-image: url("./Fotos/Practica.jpg");
+    background-image: url("/Fotos/Practica.jpg");
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -158,7 +152,7 @@ footer{
     bottom: 0;
 }
 #proyecto{
-    background-image: url("./Fotos/Proyecto.jpg");
+    background-image: url("/Fotos/Proyecto.jpg");
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -181,16 +175,16 @@ footer{
     opacity: .8;
 }
 #parte1{
-    background-image: url("./Fotos/Yo.jpg");
+    background-image: url("/Fotos/Yo.jpg");
 }
 #parte2{
-    background-image: url("./Fotos/Foco.jpg");
+    background-image: url("/Fotos/Foco.jpg");
 }
 #parte3{
-    background-image: url("./Fotos/Baloncesto.jpg");
+    background-image: url("/Fotos/Baloncesto.jpg");
 }
 #parte4{
-    background-image: url("./Fotos/Mente.jpg");
+    background-image: url("/Fotos/Mente.jpg");
 }
 .imagen{
     background-position: center;
@@ -211,6 +205,35 @@ footer{
     font-size: 2em;
     margin: 15px 5px 5px 5px;
     color: #1E1C1C;
+}
+.explicaciones{
+    text-align: justify;
+    width: 75%;
+    margin: 15px 10% 0 10%;
+    font-size: 1.5em;
+}
+.explicaciones2{
+    position: absolute;
+    left: 0;
+    top: 25%;
+    width: 100%;
+    height: 75%;
+    overflow: auto;
+}
+.explicaciones3{
+    margin: 2% 0;
+    border: solid black;
+}
+.lista>a{
+    text-decoration: none;
+}
+.lista{
+    text-align: center;
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 @media screen and (max-width: 1000px) {
     #nav{
@@ -250,5 +273,10 @@ footer{
     }
     .texto>p{
         font-size: 1.5em;
+    }
+}
+@media screen and (max-width: 1500px){
+    .explicaciones3{
+        display: none;
     }
 }
