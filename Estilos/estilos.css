@@ -33,17 +33,20 @@ h2{
     font-weight: normal;
     margin-top: 10px;
     font-size: 2em;
+    color: black;
+}
+.titulito{
     color: #EEDFDF;
 }
 #nav{
     margin: 0 auto;
-    background-color: transparent;
     position: absolute;
     top: 80%;
     z-index: 14;
 }
 ul{
     list-style: none;
+    background-color: #516260;
 }
 li{
     width: 150px;
@@ -267,7 +270,7 @@ a{
     }
     .texto{
         position: absolute;
-        left: 0%;
+        left: 0;
         width: 99%;
         overflow: hidden;
     }
