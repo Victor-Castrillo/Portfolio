@@ -8,7 +8,7 @@ body{
     font-family: "Berlin Sans FB", sans-serif;
 }
 header{
-    background-image: url("/Fotos/Fondo titulo.jpg");
+    background-image: url("../Fotos/Fondo titulo.jpg");
     position: fixed;
     left: 0;
     top: 0;
@@ -98,7 +98,7 @@ main{
     border-radius: 5px;
 }
 footer{
-    background-image: url("/Fotos/Fondo titulo.jpg");
+    background-image: url("../Fotos/Fondo titulo.jpg");
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -145,7 +145,7 @@ footer{
     margin-left: 10%;
 }
 #practica{
-    background-image: url("/Fotos/Practica.jpg");
+    background-image: url("../Fotos/Practica.jpg");
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -155,7 +155,7 @@ footer{
     bottom: 0;
 }
 #proyecto{
-    background-image: url("/Fotos/Proyecto.jpg");
+    background-image: url("../Fotos/Proyecto.jpg");
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -178,16 +178,16 @@ footer{
     opacity: .8;
 }
 #parte1{
-    background-image: url("/Fotos/Yo.jpg");
+    background-image: url("../Fotos/Yo.jpg");
 }
 #parte2{
-    background-image: url("/Fotos/Foco.jpg");
+    background-image: url("../Fotos/Foco.jpg");
 }
 #parte3{
-    background-image: url("/Fotos/Baloncesto.jpg");
+    background-image: url("../Fotos/Baloncesto.jpg");
 }
 #parte4{
-    background-image: url("/Fotos/Mente.jpg");
+    background-image: url("../Fotos/Mente.jpg");
 }
 .imagen{
     background-position: center;
